@@ -1,12 +1,51 @@
-
 // Git
 // -------------------
-
 // Used to color git status
 
-.status          { color: @text-color; }
-.status-added    { color: @text-color-success; } // green
-.status-ignored  { color: @text-color-subtle; }  // faded
-.status-modified { color: @text-color-warning; } // orange
-.status-removed  { color: @text-color-error; }   // red
-.status-renamed  { color: @text-color-info; }    // blue
+.status {
+  color: @text-color;
+}
+
+.status-added {
+  color: @text-color-success;
+}
+// green
+
+.status-ignored {
+  color: @text-color-subtle;
+}
+// faded
+
+.status-modified {
+  color: @text-color-warning;
+}
+// orange
+
+.status-removed {
+  color: @text-color-error;
+}
+// red
+
+.status-renamed {
+  color: @text-color-info;
+}
+// blue
+
+.github-CommitView-editor {
+  background: transparent;
+}
+
+.github-AtomTextEditor-container .editor {
+  background: #00101f;
+}
+
+.github-CommitView-coAuthorToggle,.github-CommitView-hardwrap hard-wrap-icons {
+  background-color: #000923;
+  font-size: 12px;
+}
+
+.github-CommitView-coAuthorToggleIcon {
+  width: 18px;
+  height: 15px;
+  fill: #ffffff;
+}
