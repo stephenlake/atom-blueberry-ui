@@ -6,11 +6,12 @@
 
 .list-group {
   li {
+    color: rgba(255,255,255, 0.7);
     padding-left: @component-padding/2;
     // We want to highlight the background of the list items because we dont know their size.
     &.selected {
       color: @text-color-selected;
-      background-color: rgba(0,0,0,0.1);
+      background-color: @background-color-highlight;
 
       &:before {
         display: none;
