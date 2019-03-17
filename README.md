@@ -5,6 +5,8 @@ A dark blueberry themed user interface package for Atom. <a href="https://github
    <img src="https://raw.githubusercontent.com/stephenlake/atom-blueberry-ui/master/assets/screen.png" width="600">
 </h4>
 
+Made with ❤️ by [Stephen Lake](https://stephenlake.co.za/)
+
 ## Usage
 - Install:
    - `apm install blueberry-ui` or
