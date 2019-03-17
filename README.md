@@ -4,6 +4,6 @@ A dark blueberry themed user interface package for Atom. [Blueberry Syntax](http
 ## Usage
 - Install:
    - `apm install blueberry-ui` or
-   - **Edit** -> **Preferences** -> **Install**, click **Themes**, Search **blueberry-io**`, click **Install**
+   - **Edit** -> **Preferences** -> **Install**, click **Themes**, Search **blueberry-ui**`, click **Install**
 - Apply:
-   - **Edit** -> **Preferences** -> **Themes**, select **UI Theme** dropdown, choose **blueberry-ui**. 
+   - **Edit** -> **Preferences** -> **Themes**, select **UI Theme** dropdown, choose **Blueberry**. 
