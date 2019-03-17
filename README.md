@@ -4,7 +4,7 @@
 
 # Blueberry UI
 
-A dark blueberry themed user interface package for Atom. <a href="https://github.com/stephenlake/atom-blueberry-syntax">Blueberry Syntax</a> theme highly recommending as paired item.
+A dark blueberry themed user interface package for Atom. <a href="https://github.com/stephenlake/atom-blueberry-syntax">Blueberry Syntax</a> theme highly recommended as a paired item.
 
 Made with ❤️ by [Stephen Lake](https://stephenlake.co.za/)
 
