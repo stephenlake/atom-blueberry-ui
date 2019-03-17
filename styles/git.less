@@ -1,6 +1,7 @@
 // Git
 // -------------------
 // Used to color git status
+
 .status {
   color: @text-color;
 }
@@ -14,6 +15,7 @@
   color: @text-color-subtle;
 }
 // faded
+
 .status-modified {
   color: @text-color-warning;
 }
@@ -23,7 +25,24 @@
   color: @text-color-error;
 }
 // red
+
 .status-renamed {
   color: @text-color-info;
 }
 // blue
+
+.github-CommitView-editor {
+  padding: 10px;
+  background: #000;
+}
+
+.github-CommitView-editor .editor {
+  background: transparent;
+  font-size: 12px;
+}
+
+.github-FilePatchView .github-FilePatchView-controlBlock,
+.github-FilePatchView-header,
+.github-HunkHeaderView {
+  background: transparent;
+}
