@@ -1,6 +1,7 @@
 <h4 align="center">
-   <img src="https://raw.githubusercontent.com/stephenlake/atom-blueberry-ui/master/assets/screen.png" width="600">
+   <img src="https://raw.githubusercontent.com/stephenlake/atom-blueberry-ui/master/assets/blueberry.png" width="800">
 </h4>
+
 
 # Blueberry UI
 
@@ -13,4 +14,4 @@ Made with ❤️ by [Stephen Lake](https://stephenlake.co.za/)
    - `apm install blueberry-ui` or
    - **Edit** -> **Preferences** -> **Install**, click **Themes**, Search **blueberry-ui**, click **Install**
 - Apply:
-   - **Edit** -> **Preferences** -> **Themes**, select **UI Theme** dropdown, choose **Blueberry**. 
+   - **Edit** -> **Preferences** -> **Themes**, select **UI Theme** dropdown, choose **Blueberry**.
