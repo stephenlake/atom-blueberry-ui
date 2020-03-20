@@ -1,27 +1,28 @@
 .btn {
   color: #ffffff;
-  background-color: #020b19;
+  background-color: #211b2d;
 
   &:focus,
   &:hover {
     color: #ffffff;
-    background-color: darken(#020b19, 5%);
+    background-color: lighten(#211b2d, 3%);
   }
 
   &:active {
     color: #ffffff;
-    background-color: darken(#0088ff, 5%);
+    background-color: lighten(#211b2d, 5%);
   }
 
   &.selected {
     color: #ffffff;
     font-weight: bold;
-    background-color: darken(#0088ff, 5%);
+    background-color: lighten(#211b2d, 5%);
   }
 
   &:focus,
   &:focus:active {
     outline: none;
+    background-color: lighten(#211b2d, 5%);
   }
 }
 
@@ -30,7 +31,7 @@
 }
 
 .btn.btn-primary {
-  .btn-color(@background-color-info);
+  background-color: #232133;
 }
 
 .btn.btn-info {
@@ -55,7 +56,7 @@
 
   &:focus,
   &:hover {
-    background-color: lighten(@bg, 4%);
+    background-color: lighten(@bg, 20%);
   }
 
   &:active {
@@ -73,5 +74,6 @@
 }
 
 .btn-group > .btn {
+  color: #abbcf1;
   border-color: hsla(0,0%,0%,.2);
 }

@@ -15,7 +15,22 @@ atom-pane {
 .panel,
 .tool-panel,
 atom-panel {
-  background-color: #11101d;
+  background-color: #0f0e1b;
+}
+
+.preview-pane .preview-header {
+  border-bottom: 1px solid #1d274291;
+  background-color: #0f0e1b;
+}
+
+.settings-view.pane-item {
+  background: #151421;
+}
+
+.settings-view .sub-section .sub-section-heading {
+  background-color: #0e0d19;
+  padding-left: 20px;
+  -webkit-user-select: none;
 }
 
 .highlight-info {
@@ -34,10 +49,14 @@ section .section-heading:first-child {
   border-right: 1px dashed rgba(0,0,0,0.1);
 }
 
+.atom-dock-mask {
+  background-color: #11101d;
+}
+
 .atom-dock-mask,
 .atom-dock-resize-handle.atom-dock-resize-handle-resizable.left,
 .atom-dock-resize-handle.atom-dock-resize-handle-resizable.right {
-  border-right: 1px solid rgba(255,255,255,0.05);
+  // border-right: 1px solid #101019;
 }
 
 .horizontal-scrollbar {
@@ -48,16 +67,29 @@ section .section-heading:first-child {
   visibility: hidden;
 }
 
+.icon:before {
+  width: auto;
+}
+
+.tree-view .icon:before {
+  width: 16px;
+}
+
+.settings-view .package-card .meta-controls .status-indicator {
+  background: #3b4a5f;
+}
+
 ::-webkit-scrollbar {
-  width: 2px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0.01);
+  background: rgba(0,0,0,0.5);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #303758;
+  background: #ffffff20;
+  border-radius: 22px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

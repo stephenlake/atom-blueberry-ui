@@ -1,13 +1,13 @@
 {
-  "name": "blueberry-ui",
+  "name": "solid-ui",
   "theme": "ui",
-  "version": "1.4.0",
+  "version": "1.0.0",
   "description": "An Atom UI theme by Stephen Lake.",
   "keywords": [
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/stephenlake/atom-blueberry-ui",
+  "repository": "https://github.com/stephenlake/atom-solid-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
